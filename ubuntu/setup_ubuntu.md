@@ -24,6 +24,11 @@
         - git save password
         git config --global credential.helper store
         password is saved in ~/.git-credentials in plaintext
+        
+        - switch
+        git config --global user.name "xxx"
+        git config --global user.email "xxx@xxx.com"
+        echo https://xxx:xxx@github.com >  ~/.git-credentials
 
 - vim
 
