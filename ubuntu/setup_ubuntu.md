@@ -18,7 +18,12 @@
 
 - git
 
+        - install
         apt-get install git
+        
+        - git save password
+        git config --global credential.helper store
+        password is saved in ~/.git-credentials in plaintext
 
 - vim
 
@@ -41,6 +46,12 @@
 
         ssh kyle@x.x.x.x with the password for kyle user, do not ssh root user
         ssh_config is in /etc/ssh/ssh_config
+ 
+- ngrok
+
+        sudo -i
+        npm install ngrok -g
+        ngrok http 30002
 
 - add package repository
 
