@@ -15,6 +15,13 @@
 
         download wubi.exe
         uninstall by wubi.exe
+- env
+        
+        files in /etc/profile.d are sourced by /etc/profile
+        sudo vim /etc/profile.d/myenv.sh
+        export JAVA_HOME=/u02/app/jdk1.8
+        export PATH=$PATH:$JAVA_HOME/bin
+        source it only effective for current shell, logout account for all
 
 - git
 
