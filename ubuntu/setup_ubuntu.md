@@ -23,20 +23,6 @@
         export PATH=$PATH:$JAVA_HOME/bin
         source it only effective for current shell, logout account for all
 
-- git
-
-        - install
-        apt-get install git
-        
-        - git save password
-        git config --global credential.helper store
-        password is saved in ~/.git-credentials in plaintext
-        
-        - switch
-        git config --global user.name "xxx"
-        git config --global user.email "xxx@xxx.com"
-        echo https://xxx:xxx@github.com >  ~/.git-credentials
-
 - vim
 
         default vi in ubuntu is very strange
@@ -72,7 +58,7 @@
         deb http://ftp.de.debian.org/debian stretch main (for https://packages.debian.org/stretch/all/python3-usb/download)
         apt update
 
-- install package manually (not recommanded, does not install dependency)
+- install package manually (No! does not manage dependency correctly)
 
         e.g.
         wget http://ftp.us.debian.org/debian/pool/main/p/pyusb/python3-usb_1.0.0-1_all.deb
