@@ -2,18 +2,27 @@
 
 - setup
 
+        - finder
         change finder defualt open location
-
-        - expand save dialog default
+        
+        expand save dialog default
         defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
         defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode2 -bool true
 
-- software
-
-        chrome
-        wifi
+        - wifi
+        chrome -> https://vsupport.xxx.com/wifi
+        enalbe auto proxy discovery for corporate network
+        
+        - printer
+        https://printers.xxx.com -> printer -> linux tab -> hostname e.g. xxx16b.cn.zzz.com
+        printers & scanners -> + -> IP
+        fill in hostname and choose 'use generic PCL printer'
+        
+        - outlook
+        https://stbeehive.xxx.com/zimbra/
+        stbeehive.xxx.com/smtp ssl / 465, 993 / normal password
+        
         visual code
-        outlook
         screenshot = lightshot
 
         chmod 755 /etc/profile (or cannot edit it even root)
