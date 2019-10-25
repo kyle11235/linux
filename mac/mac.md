@@ -77,5 +77,16 @@
 
         go back/forward position = alt + command + left/right
         format width = preference -> java -> code format -> search width
+        
+- imovie
+
+        - video
+        trim video = window -> show clip trimmer -> drag
+
+        - title
+        add title = Titles -> click where to add -> double click a title
+        adjust title duration = click info icon (!) / drag
+        edit text = double click title, change font / size / color -> click icon V to apply
+        move title lower using = new line / option + enter
 
 
