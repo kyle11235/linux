@@ -8,6 +8,18 @@
         expand save dialog default
         defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
         defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode2 -bool true
+        
+        - new file
+        automator -> quick action -> utils -> run applescript -> no input, Finder -> save as New README.md
+        if delete workflow, it's in ~/Library/Services
+        
+        tell application "Finder"
+                set txt to make new file at (the target of the front window) as alias with properties {name:"README.md"}
+                select txt
+        end tell
+        
+        keyboard -> shortcut -> service -> command + option + N (no conflict)
+        enable by a run, Finder -> services -> New README
 
         - wifi
         chrome -> https://vsupport.xxx.com/wifi
