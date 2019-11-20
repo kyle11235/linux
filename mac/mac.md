@@ -21,6 +21,9 @@
         keyboard -> shortcut -> service -> command + option + N (no conflict)
         enable by a run, Finder -> services -> New README
 
+        - new terminal at folder
+        keyboard -> shortcut -> service -> new terminal at folder -> command + shift + option + T (no conflict)
+        
         - wifi
         chrome -> https://vsupport.xxx.com/wifi
         enalbe auto proxy discovery for corporate network
@@ -34,19 +37,19 @@
         https://stbeehive.xxx.com/zimbra/
         stbeehive.xxx.com/smtp ssl / 465, 993 / normal password
         
-        visual code
-        screenshot = lightshot
-
+        - common
         chmod 755 /etc/profile (or cannot edit it even root)
-        home brew
-        vpn
-        git is included in xcode tools
+        editor = visual code
+        screenshot = lightshot
+        installer = home brew
         ssh = termius
         ftp = filezilla
         unpackage = Dr. unarchivier
         backup = freeFileSync
         compare files = diffmerge
         svn client = snailSVNlite
+        vpn
+        git is included in xcode tools
         nodejs by mac installer
         jdk by mac installer
         maven by zip file
