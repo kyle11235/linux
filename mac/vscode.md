@@ -1,14 +1,20 @@
 # vscode keys
 
 - basic
-
-        - disable auto reveal file for current opening file = uncheck autoReveal
+    
         - box selection = shift + option + mouse
         - edit multiple lines = option + command + up/down arrow
         - trigger left panel = command + b
         - open/close terminal = control + `
-        - disable copy/paste with black ground = editor.copyWithSyntaxHighlighting -> false
-        - change shortcut = command + KS
+        
+- settings.json
+        
+        $HOME/Library/Application Support/Code/User/settings.json
+        - disable auto reveal = preference -> settings -> uncheck autoReveal or "explorer.autoReveal": false
+        - disable copy/paste with black ground = settings or settings.json -> "editor.copyWithSyntaxHighlighting": false
+        
+- shortcut = command + KS
+
         - trigger suggestion = command + 1 (changed fromn ^space)
         - go last = command + [
         - delete line = command + delete
@@ -16,6 +22,12 @@
 - go
         
         - trigger suggestion = use vscode
+        - disable formatOnSave / remove unused package, change settings.json
+        
+                "[go]": {
+                   "editor.formatOnSave": false
+                }
+
         - fix auto complete issue
 
                 Run Go: Install/Update Tools in VSCode
