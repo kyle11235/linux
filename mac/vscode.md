@@ -1,19 +1,27 @@
 # vscode keys
 
-- disable explorer window to reveal file for current opening file = uncheck autoReveal
-- manual suggestion trigger = has beed set to cmd + 1 in keyboard shortcuts
-- fix auto complete issue
+- basic
 
-        Run Go: Install/Update Tools in VSCode
-        cd ~/go/bin
-        ./gocode close
+        - disable auto reveal file for current opening file = uncheck autoReveal
+        - box selection = shift + option + mouse
+        - edit multiple lines = option + command + up/down arrow
+        - trigger left panel = command + b
+        - open/close terminal = control + `
+        - disable copy/paste with black ground = editor.copyWithSyntaxHighlighting -> false
+        - change shortcut = command + KS
+        - trigger suggestion = command + 1 (changed fromn ^space)
+        - go last = command + [
+        - delete line = command + delete
 
-- box selection = shift + option + mouse
-- edit multiple lines = option + command + up/down arrow
-- trigger left panel = command + b
-- open/close terminal = control + `
-- disable copy/paste with black ground = editor.copyWithSyntaxHighlighting -> false
+- go
+        
+        - trigger suggestion = use vscode
+        - fix auto complete issue
 
+                Run Go: Install/Update Tools in VSCode
+                cd ~/go/bin
+                ./gocode close
+        
 - Basic Editing
 
         Key	Command	Command id
