@@ -16,8 +16,9 @@
 - shortcut = command + KS
 
         - trigger suggestion = command + 1 (changed fromn ^space)
-        - go last = command + [
-        - delete line = command + delete
+        - delete line = command + delete / command + shift + k
+        - go back = control + -
+        - go forward = control + shift + -
 
 - go
         
