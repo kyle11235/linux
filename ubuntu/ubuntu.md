@@ -3,7 +3,7 @@
 - install
 
         - downlaod image
-        - use balenaEtcher to flash image into 4GB USB
+        - use balenaEtcher(on mac) to flash image into 4GB USB
         - F12 when start system, choose to boot from USB
 
 - wubi for 2 systems
@@ -63,3 +63,15 @@
         e.g.
         wget http://ftp.us.debian.org/debian/pool/main/p/pyusb/python3-usb_1.0.0-1_all.deb
         dpkg -i python3-usb_1.0.0-1_all.deb
+        
+- flash windows bootable image
+
+        - format usb, make it bootable
+        open disks util, forma it to FAT for all systems
+        
+        - mount ios and copy bootable content into usb
+        right click ios file, open with other application, mount it
+        file browser -> click Other Location -> go into the mounted file, copy all files into usb
+        
+        
+        
