@@ -104,4 +104,19 @@
         edit text = double click title, change font / size / color -> click icon V to apply
         move title lower using = new line / option + enter
 
+- apache
+
+        pre-installed
+        apachectl -v
+        php -v
+        sudo apachectl start/stop/restart
+
+        sudo cp /etc/apache2/httpd.conf /etc/apache2/httpd.conf.origin
+        sudo vi /etc/apache2/httpd.conf
+        DocumentRoot "/Library/WebServer/Documents"
+        DirectoryIndex index.html index.php
+        ...
+
+        sudo apachectl restart
+        http://localhost
 

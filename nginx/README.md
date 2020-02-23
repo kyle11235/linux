@@ -59,3 +59,20 @@
         /etc/nginx/nginx.conf
         /var/www/nginx-default or /var/www
         /var/log/nginx
+
+- mac
+
+        brew install nginx 
+        brew services start nginx
+        http://localhost:8080
+        /usr/local/Cellar/nginx/x.x.x/html
+        brew services restart nginx
+
+
+
+
+
+
+
+
+
