@@ -18,4 +18,15 @@
         tar xzf myfile.tar.gz
 
         - .tar.bz2, uncompress
-        tar xjf myfile.tar.gz
+        tar xjf myfile.tar.bz2
+        
+ - zip
+ 
+        - zip only child files in my folder
+        cd my
+        zip -r my.zip *
+        
+        - zip my folder and child files
+        zip -r my.zip my/
+        
+        
