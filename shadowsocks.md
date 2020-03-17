@@ -46,7 +46,7 @@
         firewall-cmd --zone=public --add-port=9558/udp --permanent
         firewall-cmd --reload
 
--dns
+- dns
 
         try use 8.8.8.8 instead of dns.google
         
