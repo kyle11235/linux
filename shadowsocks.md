@@ -46,4 +46,21 @@
         firewall-cmd --zone=public --add-port=9558/udp --permanent
         firewall-cmd --reload
 
+-dns
+
+        try use 8.8.8.8 instead of dns.google
+        
+- ssh
+        
+        mobile/pc on same wifi
+        
+        - pc
+        port from=9558
+        host to=127.0.0.1
+        port to=9558
+        bind address=0.0.0.0 (not 127.0.0.1)
+        
+        - mobile
+        pc ip:9558
+        
         
