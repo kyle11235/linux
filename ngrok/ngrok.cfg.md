@@ -1,0 +1,2 @@
+server_addr: "tcp.xxx.cn:4443"
+trust_host_root_certs: false
