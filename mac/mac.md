@@ -54,7 +54,11 @@
         jdk by mac installer
         maven by zip file
         gradle by sdkman
-        ngrok downloaded from official site
+        
+        - disable dock bouncing
+        defaults write com.apple.dock no-bouncing -bool TRUE
+        killall Dock (relaunch dock)
+        
         
 - key
 
