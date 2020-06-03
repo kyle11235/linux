@@ -1,5 +1,20 @@
 # vnc
 
+- install on oracle linux 7
+
+        - sudo -i
+        yum groupinstall 'Server with GUI'
+        yum install -y tigervnc-server
+        systemctl set-default graphical.target
+        vncserver
+
+        export DISPLAY=<HOSTNAME>:1 (optional)
+        open port 5901
+
+        download vncviewer
+        input ip:1
+        input password
+
 - install on debian 8
 
         - install
