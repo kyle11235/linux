@@ -8,6 +8,9 @@
         firewall-cmd --reload
         yum install -y nginx (/sbin/nginx, /etc/nginx/nginx.conf, /usr/share/nginx/html)
         nginx (start nginx)
+        
+        if change html folder to /home/opc/app
+        change 'user nginx' to 'user root' of /etc/nginx/nginx.conf
 
 - ali ec2 centos, yum
 
