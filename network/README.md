@@ -28,7 +28,7 @@
         https://en.wikipedia.org/wiki/Internet_protocol_suite
 
         - application (process-to-process)
-        - transport (hots-to-host)
+        - transport (host-to-host)
         - internet (ip to ip/independent network)
         - data link (within a single network/on the same link)
         hardware/virtual implementation e.g. vpn, tunnel
@@ -139,81 +139,6 @@
 - DHCP
 
         client-server model, DHCP client request, and DHCP server manage IP pool and assign IP for clients
-
-- virtualbox
-
-        https://www.virtualbox.org/manual/ch06.html#network_nat_service
-
-        - NAT (Network Address Translation)
-
-                easy to have basic network to visit internet
-                like private <-> NAT <-> public
-                vm receives its network address and configuration on the private network from a DHCP server integrated into Oracle VM VirtualBox
-                network for 1st cart is 10.0.2.0, network for 2nd card of 2nd vm is 10.0.3.0
-
-                - from guest to visit external network
-                1.in office, wifi ok
-                2.in office, cable needs proxy probably
-                3.at home, wifi ok
-
-                - from host to guest
-                1.port forwarding
-        
-                - from guest to visit host
-                check ip from host
-                1.try to use the local connection IPV4
-                2.try default mask
-
-        - bridged networking
-
-                This is for more advanced networking needs, such as network simulations and running servers in a guest. 
-                When enabled, Oracle VM VirtualBox connects to one of your installed network cards and exchanges network packets directly
-
-                With bridged networking, Oracle VM VirtualBox uses a host driver to intercept data from the physical network and inject data into it, effectively creating a new network interface in software. 
-                
-                When a guest is using such a new software interface, it looks to the host system as though the guest were physically connected to the interface using a network cable. The host can send data to the guest through that interface and receive data from it. This means that you can set up routing or bridging between the guest and the rest of your network.
-
-        - host-only networking
-
-                To create a network containing the host and a set of virtual machines, using virtual network interface
-
-- network interface
-
-        - network interface of VM
-
-                - before start vm, you can define serval network interface (without name like eht0)
-
-                - when vm is started
-                /etc/udev/rules.d/70-persistent-net.rules is used to do some mapping
-                between your defined interface without name and runtime interface by its name, like eht0, eth1 (check ifconfig)
-                you can modify or delete it, need to reboot
-
-                - interface setting with name is in file like /etc/sysconfig/network-scripts/ifcfg-eth0
-                
-                - usually when have issue, you need to check below stuff
-                ifconfig
-                ls /etc/sysconfig/network-scripts/
-                cat /etc/sysconfig/network-scripts/ifcfg-eth0
-                cat /etc/udev/rules.d/70-persistent-net.rules
-                rm /etc/udev/rules.d/70-persistent-net.rules
-                service network restart
-                service NetworkManager stop
-
-        - example
-
-                TYPE=Ethernet
-                BOOTPROTO=none
-                IPADDR=10.10.10.110
-                PREFIX=24
-                GATEWAY=10.10.10.111
-                DEFROUTE=yes
-                IPV4_FAILURE_FATAL=yes
-                IPV6INIT=no
-                NAME=eth0
-                UUID=86d44060-4579-48cc-b85b-219a206ca37c
-                ONBOOT=yes
-                HWADDR=00:50:56:95:09:76
-                LAST_CONNECT=1411004329
 
 - driver
 

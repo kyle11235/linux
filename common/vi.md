@@ -7,3 +7,10 @@
 - shell go to beginning/end
 
         ctrl + a/e
+
+- cat into file
+
+cat <<EOF> hi.txt
+hello
+EOF
+
