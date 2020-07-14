@@ -13,6 +13,6 @@
 - linux
 
         wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
-        ./ngrok http 8000 > /dev/null &
+        nohup ./ngrok http 8000 > /dev/null &
         curl http://127.0.0.1:4040/api/tunnels
         
