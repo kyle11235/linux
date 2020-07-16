@@ -13,6 +13,7 @@
 - linux
 
         wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
+        ./ngrok authtoken xxx (if not sign in and get this token, it will expires 1 day)
         nohup ./ngrok http 8000 > /dev/null &
         curl http://127.0.0.1:4040/api/tunnels
         
