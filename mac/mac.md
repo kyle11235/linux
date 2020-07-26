@@ -10,7 +10,7 @@
         defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode2 -bool true
         
         - new file
-        automator -> quick action -> utils -> run applescript -> no input, Finder -> save as New README.md
+        automator -> quick action/service -> utils -> run applescript -> no input, Finder -> save as New README.md
         if delete workflow, it's in ~/Library/Services
         
         tell application "Finder"
@@ -22,7 +22,7 @@
         enable by a run, Finder -> services -> New README
 
         - new terminal at folder
-        keyboard -> shortcut -> service -> new terminal at folder -> command + shift + option + T (no conflict)
+        keyboard -> shortcut -> service -> new terminal at folder -> command + option + J (no conflict, consistent with vscode)
         
         - wifi
         chrome -> https://vsupport.xxx.com/wifi
