@@ -102,5 +102,9 @@
         - project -> team -> add user -> change team member to assignee
         - user -> role -> grant user developer role if necessary
         
+- reset root
+
+        java -Djetbrains.charisma.restoreRootPassword=true -jar youtrack-2019.3.64616.jar 8888
+        When YouTrack starts, the root user password and permissions are reset to their default values (root/root), login and set a new password for the account
         
 
