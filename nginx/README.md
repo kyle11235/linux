@@ -66,10 +66,14 @@
 - mac
 
         brew install nginx 
-        brew services start nginx
+        
+        The default port has been set in /usr/local/etc/nginx/nginx.conf to 8080 so that
+        nginx can run without sudo.
+
+        nginx
+        nginx -s reload
         http://localhost:8080
-        /usr/local/Cellar/nginx/x.x.x/html
-        brew services restart nginx
+        
 
 
 
