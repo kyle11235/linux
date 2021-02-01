@@ -107,6 +107,11 @@
         adjust title duration = click info icon (!) / drag
         edit text = double click title, change font / size / color -> click icon V to apply
         move title lower using = new line / option + enter
+        
+        - internal audio record
+        download Soundflower from https://github.com/mattingalls/Soundflower/releases
+        audio MIDI setup -> create Multi-output Device -> select builtin + soundflow(2ch) -> 
+        system preference -> sound -> output select multi-output device
 
 - homebrew
 
