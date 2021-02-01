@@ -112,6 +112,7 @@
         download Soundflower from https://github.com/mattingalls/Soundflower/releases
         audio MIDI setup -> create Multi-output Device -> select builtin + soundflow(2ch) -> 
         system preference -> sound -> output select multi-output device
+        quicktime -> file -> audio record -> select soundflow as input
 
 - homebrew
 
