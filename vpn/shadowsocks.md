@@ -7,7 +7,8 @@
 
 - client
 
-        https://github.com/shadowsocks/shadowsocks-android/releases/download/v5.0.5/shadowsocks--universal-5.0.5.apk
+        android - https://github.com/shadowsocks/shadowsocks-android/releases/download/v5.0.5/shadowsocks--universal-5.0.5.apk
+        Mac - https://github.com/shadowsocks/ShadowsocksX-NG
 
 - server
 
