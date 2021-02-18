@@ -4,6 +4,7 @@
 
         - finder
         change finder defualt open location
+        finder -> advanced -> show file extensions
         
         expand save dialog default
         defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
@@ -38,6 +39,7 @@
         stbeehive.xxx.com/smtp ssl / 465, 993 / normal password
         
         - common
+        for system integrity protect, unable to create /u02 anymore in bit sur
         chmod 755 /etc/profile (or cannot edit it even root)
         editor = visual code
         screenshot = lightshot
@@ -51,7 +53,7 @@
         vpn
         git is included in xcode tools
         nodejs by mac installer
-        jdk by mac installer
+        jdk by mac installer (export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home)
         maven by zip file
         gradle by sdkman
         
