@@ -55,7 +55,6 @@
         nodejs by mac installer
         jdk by mac installer (export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home)
         maven by zip file
-        gradle by sdkman
         
         - disable dock bouncing
         defaults write com.apple.dock no-bouncing -bool TRUE
