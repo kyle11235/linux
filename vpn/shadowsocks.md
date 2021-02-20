@@ -2,13 +2,14 @@
 # shadowsocks
 
         socks5 proxy
-        https://shadowsocks.org (download/config)
+        https://shadowsocks.org (download client/server, config, vpn is required to visit this website)
         https://github.com/shadowsocks
 
 - client
 
         android - https://github.com/shadowsocks/shadowsocks-android/releases/download/v5.0.5/shadowsocks--universal-5.0.5.apk
         Mac - https://github.com/shadowsocks/ShadowsocksX-NG
+        ios - app store hk, wingy
 
 - server
 
