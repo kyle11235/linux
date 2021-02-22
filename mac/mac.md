@@ -41,6 +41,7 @@
         - common
         for system integrity protect, unable to create /u02 anymore in bit sur
         chmod 755 /etc/profile (or cannot edit it even root)
+        change terminal's preference, default login sh (zsh) -> /bin/sh (read /etc/profile)
         editor = visual code
         screenshot = lightshot
         installer = home brew
