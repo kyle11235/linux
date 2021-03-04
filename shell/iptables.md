@@ -39,20 +39,3 @@
 
         sudo iptables -I INPUT -s 192.168.0.0/24 -p tcp --dport 1521 -j ACCEPT
 
-- check if port is listening
-
-        netstat -tulpn | grep LISTEN
-        // tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      1095/sshd
-        // tcp6       0      0 :::3306                 :::*                    LISTEN      14151/docker-proxy  
-        // tcp        0      0 172.16.10.6:1521            0.0.0.0:*                   LISTEN      61926/tnslsnr
-
-        lsof -i -P -n | grep LISTEN
-        // tnslsnr   61926   grid   15u  IPv4  755151      0t0  TCP 172.16.10.6:1521 (LISTEN)
-
-- check if remote port is open
-
-        mac -> network utility -> port scan -> ip/domain port
-
-- check who is using 80 port
-
-        netstat -tulpn | grep --color :80

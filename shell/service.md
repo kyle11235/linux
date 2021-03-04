@@ -2,6 +2,7 @@
 
 - place script
 
+        check file scripts/logstash
         e.g. cp logstash /etc/rc.d/init.d/
 
 - create soft link (85 is priority)

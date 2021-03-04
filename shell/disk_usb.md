@@ -1,24 +1,6 @@
 
 # disk / usb
 
-- df
-
-        df -h
-
-- du
-        
-        du -sh file_path (du = disk usage, s = summary, h = human)
-        
-        - current folder
-        du -sh *
-        
-        - child folder without current
-        du -h --max-depth=1 | sort -hr
-
-- ls
-
-        ls -lh
-
 - revert bootable usb to normal
 
         - mac/ubuntu?

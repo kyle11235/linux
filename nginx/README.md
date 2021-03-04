@@ -74,6 +74,9 @@
         nginx -s reload
         http://localhost:8080
         
+- find config
+
+        nginx -t
 
 
 
